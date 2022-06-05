@@ -1,0 +1,72 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__title {
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 0.5rem;
+}
+
+.header__search__form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.header__search__label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__search__input {
+  padding: 7px 8px;
+  padding-right: 44px;
+  outline: none;
+  font-size: 18px;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(63, 58, 58);
+}
+
+.header__form__button {
+  width: 40px;
+  height: 38.8px;
+  position: absolute;
+  right: 0;
+  border-radius: 0.5rem;
+}
+
+.header__search__icon {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 0;
+  font-size: 22px;
+  height: 38.8px;
+}
+
+.header__right {
+  background-color: yellow;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
